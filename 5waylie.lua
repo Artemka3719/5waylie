@@ -352,6 +352,14 @@ Section:NewButton("KeyBoard", "ButtonInfo", function()
      loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
 end)
 
+local Tab = Window:NewTab("Animation")
+
+local Section = Tab:NewSection("Animation")
+
+Section:NewButton("Anim", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RubyBoo4life/Scripts/main/animations.vis'))()
+end)
+
 local Tab = Window:NewTab("UPDATE INF")
 
 local Section = Tab:NewSection("UPDATE")
