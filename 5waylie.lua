@@ -293,13 +293,11 @@ L.Ambient = Color3.fromRGB(59, 33, 27)
 
 end)
 
-local Section = Tab:NewSection("Extra")
-
 Section:NewButton("Rejoin Game", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
 end)
 
-Section:NewToggle("ToggleText", "ToggleInfo", function(state)
+Section:NewToggle("ESP BETA", "ToggleInfo", function(state)
     if state then
         print("Toggle On")
     else
