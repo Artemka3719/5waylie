@@ -7,7 +7,7 @@ local Window = Library.CreateLib("5waylie [BETA]", "RJTheme7")
 
 local Tab = Window:NewTab("Scripts Mobile")
 
-local Section = Tab:NewSection("Mode")
+local Section = Tab:NewSection("Mode 10Scripts")
 
 Section:NewButton("MM2", "ButtonInfo", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/DihfjHj2'))()
@@ -387,7 +387,7 @@ local Tab = Window:NewTab("UPDATE INF")
 
 local Section = Tab:NewSection("UPDATE")
 
-Section:NewDropdown("UPDATE", "DropdownInf", {"Release 08/11/22","Latest updates 08/11/22"}, function(currentOption)
+Section:NewDropdown("UPDATE", "DropdownInf", {"Release 08/11/22","Latest updates 08/12/22"}, function(currentOption)
     print(currentOption)
 end)
 
