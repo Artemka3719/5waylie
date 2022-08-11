@@ -303,9 +303,11 @@ Section:NewButton("FPS+", "ButtonInfo", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Artemka3719/fps/main/fps.lua", true))()
 end)
 
+local Tab = Window:NewTab("UPDATE INF")
+
 local Section = Tab:NewSection("UPDATE")
 
-Section:NewDropdown("DropdownText", "DropdownInf", {"Release 08/11/22","Latest updates 08/11/22"}, function(currentOption)
+Section:NewDropdown("UPDATE", "DropdownInf", {"Release 08/11/22","Latest updates 08/11/22"}, function(currentOption)
     print(currentOption)
 end)
 
