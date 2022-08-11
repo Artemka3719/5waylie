@@ -3,7 +3,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Subscribe ",
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("5waylie [BETA MOBAIL]", "RJTheme7")
+local Window = Library.CreateLib("5waylie [BETA]", "RJTheme7")
 
 local Tab = Window:NewTab("Scripts")
 
@@ -43,6 +43,14 @@ end)
 
 Section:NewButton("King Legasy", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/King%20Leagacy"))()
+end)
+
+local Tab = Window:NewTab("Scripts PC")
+
+local Section = Tab:NewSection("Mode")
+
+Section:NewButton("MM2", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5'))()
 end)
 
 local Tab = Window:NewTab("Main")
