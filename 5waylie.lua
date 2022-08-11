@@ -300,6 +300,6 @@ Section:NewButton("Rejoin Game", "ButtonInfo", function()
 end)
 
 Section:NewButton("FPS+", "ButtonInfo", function()
-
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Artemka3719/fps/main/fps.lua", true))()
 end)
 
