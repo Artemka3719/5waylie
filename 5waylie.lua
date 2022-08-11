@@ -5,7 +5,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 
 local Window = Library.CreateLib("5waylie [BETA]", "RJTheme7")
 
-local Tab = Window:NewTab("Scripts")
+local Tab = Window:NewTab("Scripts Mobile")
 
 local Section = Tab:NewSection("Mode")
 
@@ -15,6 +15,10 @@ end)
 
 Section:NewButton("Blox Fruits", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/GooD1020/GooD1020/main/README.md'))()
+end)
+
+Section:NewButton("Sea Piece", "ButtonInfo", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/sea_piece.lua"))()
 end)
 
 Section:NewButton("Mining Sim2", "ButtonInfo", function()
