@@ -47,7 +47,7 @@ end)
 
 local Tab = Window:NewTab("Main")
 
-local Section = Tab:NewSection("main")
+local Section = Tab:NewSection("Main")
 
 Section:NewButton("FLY GUI", "ButtonInfo", function()
     --ARCEUS X FLY V2 SCRIPT
