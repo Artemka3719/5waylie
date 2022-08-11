@@ -348,6 +348,10 @@ Section:NewButton("FPS+", "ButtonInfo", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Artemka3719/fps/main/fps.lua", true))()
 end)
 
+Section:NewButton("KeyBoard", "ButtonInfo", function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
 local Tab = Window:NewTab("UPDATE INF")
 
 local Section = Tab:NewSection("UPDATE")
