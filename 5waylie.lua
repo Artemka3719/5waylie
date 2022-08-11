@@ -1,3 +1,6 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Subscribe ", Text = "Script is made by 5waylie"})
+
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
 local Window = Library.CreateLib("5waylie [BETA]", "RJTheme7")
@@ -358,6 +361,14 @@ local Section = Tab:NewSection("Animation")
 
 Section:NewButton("Anim", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/RubyBoo4life/Scripts/main/animations.vis'))()
+end)
+
+local Tab = Window:NewTab("KeyBoard")
+
+local Section = Tab:NewSection("...")
+
+Section:NewButton("KeyBoard", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
 end)
 
 local Tab = Window:NewTab("UPDATE INF")
