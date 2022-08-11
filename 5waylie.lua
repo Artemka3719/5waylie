@@ -305,8 +305,3 @@ Section:NewButton("FPS+", "ButtonInfo", function()
         V.Material = "SmoothPlastic"
 end)
 
-local Section = Tab:NewSection("UPDATE")
-
-Section:NewDropdown("DropdownText", "DropdownInf", {"Release 08/11/22","Latest updates 08/11/22"}, function(currentOption)
-    print(currentOption)
-end)
