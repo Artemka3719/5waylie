@@ -7,7 +7,7 @@ local Window = Library.CreateLib("5waylie [BETA]", "RJTheme7")
 
 local Tab = Window:NewTab("Scripts Mobile")
 
-local Section = Tab:NewSection("Mode 12 Scripts")
+local Section = Tab:NewSection("Mode 13 Scripts")
 
 Section:NewButton("MM2", "ButtonInfo", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/DihfjHj2'))()
@@ -55,6 +55,10 @@ end)
 
 Section:NewButton("Combat Warriors", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+end)
+
+Section:NewButton("Build A Boat", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Artemka3719/nemoiscript/main/nemoiscriptt?token=GHSAT0AAAAAABXRLYBEXS45JTOECEPUKY4KYXZFSOQ"))()
 end)
 
 local Tab = Window:NewTab("Scripts PC")
