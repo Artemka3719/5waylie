@@ -53,6 +53,10 @@ Section:NewButton("Stand Upright Rebooted", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/GodClass/EpicScripts/main/SUR.txt"))() 
 end)
 
+Section:NewButton("Combat Warriors", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+end)
+
 local Tab = Window:NewTab("Scripts PC")
 
 local Section = Tab:NewSection("Mode")
